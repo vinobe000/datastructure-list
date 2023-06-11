@@ -41,3 +41,11 @@ In [77]: def reversing(newlist):
 
 In [78]: reversing([11,12,13,14,15])
 [15, 14, 13, 12, 11]
+
+In [81]: def reversing(newlist):
+    ...:     newlist.sort(reverse=True)
+    ...:     print(newlist)
+    ...:
+
+In [82]: reversing([11,12,13,14,15])
+[15, 14, 13, 12, 11]
