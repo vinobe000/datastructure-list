@@ -1,0 +1,43 @@
+
+In [69]: def reversing(newlist):
+    ...:     newlist.reverse()
+    ...:     print(newlist)
+    ...:
+
+In [70]: def reversing(newlist):
+    ...:     new=[]
+    ...:     for i in newlist:
+    ...:         new.insert(0,i)
+    ...:
+
+In [71]: def reversing(newlist):
+    ...:     new=[]
+    ...:     for i in newlist:
+    ...:         new.insert(0,i)
+    ...:     print(new)
+    ...:
+
+In [72]: reversing([11,12,13,14,15])
+[15, 14, 13, 12, 11]
+
+In [73]: def reversing(newlist):
+    ...:     newlist[::-1]
+    ...:
+
+In [74]: reversing([11,12,13,14,15])
+
+In [75]: def reversing(newlist):
+    ...:     newlist[::-1]
+    ...:     print(newlist)
+    ...:
+
+In [76]: reversing([11,12,13,14,15])
+[11, 12, 13, 14, 15]
+
+In [77]: def reversing(newlist):
+    ...:     new=newlist[::-1]
+    ...:     print(new)
+    ...:
+
+In [78]: reversing([11,12,13,14,15])
+[15, 14, 13, 12, 11]
