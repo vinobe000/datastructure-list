@@ -1,0 +1,145 @@
+
+In [11]: def swaplist(newlist):
+    ...:     newlist[0],newlist[-1]=newlist[-1],newlist[0]
+    ...:     print(f"{newlist}")
+    ...:
+
+In [12]: swaplist([3,4,5,6,7])
+[7, 4, 5, 6, 3]
+
+In [13]: def swaplist(newlist):
+    ...:     first=newlist.pop(0)
+    ...:     second=newlist.pop(-1)
+    ...:     newlist.append(first)
+    ...:     newlist.insert(0,second)
+    ...:     print(f"{newlist}")
+    ...:
+
+In [14]: swaplist([3,4,5,6,7])
+[7, 4, 5, 6, 3]
+
+In [15]: def oddandeven (newlist):
+    ...:     num=0
+    ...:     n=0
+    ...:     for i in newlist:
+    ...:         if (i%2==0):
+    ...:             print(i,"is even number")
+    ...:             num+=i
+    ...:         else:
+    ...:             print(i,"is odd number")
+    ...:             n+=i
+    ...:         print(num,"is sum of even number")
+    ...:         print(n,"is sum of odd number")
+    ...:
+
+In [16]: oddandeven([12,12,1213,14,16,17,18,988])
+12 is even number
+12 is sum of even number
+0 is sum of odd number
+12 is even number
+24 is sum of even number
+0 is sum of odd number
+1213 is odd number
+24 is sum of even number
+1213 is sum of odd number
+14 is even number
+38 is sum of even number
+1213 is sum of odd number
+16 is even number
+54 is sum of even number
+1213 is sum of odd number
+17 is odd number
+54 is sum of even number
+1230 is sum of odd number
+18 is even number
+72 is sum of even number
+1230 is sum of odd number
+988 is even number
+1060 is sum of even number
+1230 is sum of odd number
+
+In [17]: def oddandeven (newlist):
+    ...:     num=0
+    ...:     n=0
+    ...:     for i in newlist:
+    ...:         if (i%2==0):
+    ...:             print(i,"is even number")
+    ...:             num+=i
+    ...:         else:
+    ...:             print(i,"is odd number")
+    ...:             n+=i
+    ...:      print(num,"is sum of even number")
+    ...:    
+
+
+In [19]: def oddandeven (newlist):
+    ...:     num=0
+    ...:     n=0
+    ...:     for i in newlist:
+    ...:         if (i%2==0):
+    ...:             print(i,"is even number")
+    ...:             num+=i
+    ...:         else:
+    ...:             print(i,"is odd number")
+    ...:             n+=i
+    ...:     print(num,"is sum of even number")
+    ...:     print(n,"is sum of odd number")
+    ...:
+
+In [20]: oddandeven([12,12,1213,14,16,17,18,988])
+12 is even number
+12 is even number
+1213 is odd number
+14 is even number
+16 is even number
+17 is odd number
+18 is even number
+988 is even number
+1060 is sum of even number
+1230 is sum of odd number
+
+In [21]: def oddandeven (newlist):
+    ...:     num=0
+    ...:     n=0
+    ...:     for i in newlist:
+    ...:         if (i%2==0):
+    ...:             print(i,"is even number")
+    ...:             num+=i
+    ...:         else:
+    ...:             print(i,"is odd number")
+    ...:             n+=i
+    ...:     print(num,"is sum of even number")
+    ...:     print(n,"is sum of odd number")
+    ...:     print(sum(newlist),"is sum of all numbers")
+
+
+
+In [22]: def oddandeven (newlist):
+    ...:     num=0
+    ...:     n=0
+    ...:     for i in newlist:
+    ...:         if (i%2==0):
+    ...:             print(i,"is even number")
+    ...:             num+=i
+    ...:         else:
+    ...:             print(i,"is odd number")
+    ...:             n+=i
+    ...:     print(num,"is sum of even number")
+    ...:     print(n,"is sum of odd number")
+    ...:     print(sum(newlist),"is sum of all numbers")
+    ...:
+
+In [23]: oddandeven([12,12,1213,14,16,17,18,988])
+12 is even number
+12 is even number
+1213 is odd number
+14 is even number
+16 is even number
+17 is odd number
+18 is even number
+988 is even number
+1060 is sum of even number
+1230 is sum of odd number
+2290 is sum of all numbers
+
+In [24]:
