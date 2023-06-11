@@ -1,0 +1,27 @@
+
+In [106]: def copy(newlist):
+     ...:     newlist.copy()
+     ...:     print(newlist)
+     ...:
+
+In [107]: copy([11,12,13,14,15])
+[11, 12, 13, 14, 15]
+
+In [108]: def copy(newlist):
+     ...:     new=newlist[:]
+     ...:     print(new)
+     ...:
+
+In [109]: copy([11,12,13,14,15])
+[11, 12, 13, 14, 15]
+
+In [110]: def copy(newlist):
+     ...:     new=[]
+     ...:     for i in newlist:
+     ...:         new.append(i)
+     ...:     print(new)
+     ...:
+     ...:
+
+In [111]: copy([11,12,13,14,15])
+[11, 12, 13, 14, 15]
